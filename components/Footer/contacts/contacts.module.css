@@ -1,0 +1,47 @@
+.Contacts{
+    flex: 1.3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 18px;
+}
+.descr{
+    margin: 20px 0 0 0;
+}
+.text{
+    margin: 20px 0;
+}
+.sub_title{
+    margin: 20px 0 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+.list:nth-child(odd) p{
+    margin: 10px 0;
+}
+.link{
+    margin-left: 10px;
+}
+
+@media(max-width:1200px){
+    .Contacts{
+        font-size: 16px;
+    }
+    .sub_title{
+        font-size: 16px;
+    }
+    .list{
+        font-size: 16px;
+    }
+}
+@media (max-width:768px){
+    .Contacts{
+        align-items: center;
+    }
+}

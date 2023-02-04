@@ -1,0 +1,41 @@
+.text{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.text_inner{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.sub_title{
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.list{
+    font-size: 18px;
+    
+}
+.list:nth-child(odd) li{
+    margin: 10px 0;
+}
+
+@media (max-width: 1024px){
+    .text{
+        font-size: 20px;
+    }
+    .text_inner{
+        font-size: 16px;
+        font-weight: 400;
+        margin: 10px 0;
+    }
+    .sub_title{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .list{
+        font-size: 16px;
+        
+    }
+}

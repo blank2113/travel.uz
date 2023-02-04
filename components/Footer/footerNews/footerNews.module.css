@@ -1,0 +1,146 @@
+.FooterNews{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+.item{
+    margin: 0px 0 30px 0;
+    width: 100%;
+}
+.title{
+    font-weight: 700;
+}
+.item_input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+.btn{
+    flex: 30%;
+    font-size: 18px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 2px;
+    border-radius: 5px;
+    background-color: #BEF264;
+    border: 1px solid #BEF264;
+}
+.input_wrapper{
+    flex: 70%;
+    padding: 5px 10px;
+    width: 100%;
+    border: 1px solid rgb(97, 97, 97);
+    border-radius: 5px;
+    font-size: 18px;
+}
+.input:active{
+    border: none;
+}
+.input:focus{
+    border: none; 
+    outline: none;
+}
+.input{
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+}
+.item_checkbox{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+}
+.sub_title{
+    margin-left: 5px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 35px;
+    margin: 20px 0;
+}
+.list:nth-child(even) li{
+    margin: 0 10px;
+}
+
+@media (max-width: 1200px){
+    .FooterNews{
+        font-size: 16px;
+    }
+    .btn{
+        font-size: 16px;
+    }
+    .input_wrapper{
+        font-size: 16px;
+    }
+    .input{
+        font-size: 16px;
+    }
+    .list{
+        font-size: 25px;
+    }
+    .item p{
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px){
+    .FooterNews{
+        font-size: 16px;
+    }
+    .btn{
+        font-size: 14px;
+        flex: 10%;
+    font-size: 18px;
+    margin: 20px 0;
+    }
+    .input_wrapper{
+        font-size: 16px;
+    }
+    .input{
+        font-size: 16px;
+        width: 100%;
+    }
+    .list{
+        font-size: 25px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .item p{
+        font-size: 16px;
+    }
+}
+@media (max-width: 520px){
+    .FooterNews{
+        font-size: 16px;
+    }
+    .btn{
+        font-size: 14px;
+        flex: 10%;
+    font-size: 18px;
+    margin: 20px 0;
+    }
+    .input_wrapper{
+        font-size: 16px;
+    }
+    .input{
+        font-size: 16px;
+        color: #000;
+    }
+    .item_input{
+        flex-direction: column;
+    }
+    .list{
+        font-size: 25px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .item p{
+        font-size: 16px;
+    }
+}

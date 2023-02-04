@@ -1,0 +1,50 @@
+.Block2{
+    margin: 0 20px;
+}
+.title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.text{
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sub_title{
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.list{
+    font-size: 18px;
+}
+.list:nth-child(odd) li{
+    margin: 10px 0;
+}
+.text_bottom{
+    margin: 20px 0;
+}
+@media (max-width: 1024px) {
+    .title{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .text{
+        margin: 20px 0;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .sub_title{
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .list{
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .Block2{
+        margin: 0 0px;
+    }
+}

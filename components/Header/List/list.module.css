@@ -1,0 +1,11 @@
+.list{
+    display: none;
+}
+@media (max-width: 768px){
+    .list{
+        display: block;
+    }
+    .list li{
+        margin: 10px 0 ;
+      }
+}

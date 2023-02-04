@@ -1,0 +1,34 @@
+.text{
+    margin: 0 0 20px 0;
+}
+.sub_title{
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.list{
+    font-size: 18px;
+}
+.list:nth-child(odd) li{
+    margin: 10px 0;
+}
+@media (max-width: 1024px){
+    .sub_title{
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .list{
+        font-size: 16px;
+    }
+}
+/* @media (max-width: 768px){
+    .sub_title{
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .list{
+        font-size: 16px;
+    }
+} */

@@ -1,0 +1,67 @@
+.Reasons{
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F0FDF4;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 0;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    margin: 16px 0;
+    padding: 0 10px;
+}
+
+.title{
+    /* margin: 0 0 12px 0; */
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+.text{
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .item{
+        font-size: 16px;
+    }
+    .title{
+        line-height: 1;
+    font-weight: 600;
+    font-size: 18px;
+    }
+    .text{
+        font-size: 15px;
+    }
+}
+@media (max-width: 530px) {
+    .item{
+        font-size: 14px;
+    }
+    .inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 45px 0;
+    }
+    .title{
+        line-height: 1;
+    font-weight: 600;
+    font-size: 16px;
+    }
+    .text{
+        font-size: 14px;
+    }
+}
