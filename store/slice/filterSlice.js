@@ -15,11 +15,30 @@ const initialState = {
     { id: 11, name: "Туры на зиму в Узбекистан", value: "winter_tours" },
   ],
   itemValue: "Все туры",
-  valueK: [ { id: 1, name: "Все туры", value: "all" },
-  { id: 2, name: "Групповые туры в Узбекистан", value: "group" },
-  { id: 3, name: "Комбинированные туры в Узбекистан", value: "comb" },
-  {id:4, name: "Эко туры", value:"mice"},],
-  itemValueK:"Все туры",
+  valueK: [
+    { id: 1, name: "Все туры", value: "all" },
+    { id: 2, name: "Групповые туры в Узбекистан", value: "group" },
+    { id: 3, name: "Комбинированные туры в Узбекистан", value: "comb" },
+    { id: 4, name: "Эко туры", value: "mice" },
+  ],
+  itemValueK: "Все туры",
+  valueT: [
+    { id: 1, name: "Все туры", value: "all" },
+    { id: 2, name: "Комбинированные туры в Узбекистан", value: "comb" },
+  ],
+  itemValueT: "Все туры",
+  valueKr: [
+    { id: 1, name: "Все туры", value: "all" },
+    { id: 2, name: "Групповые туры в Узбекистан", value: "group" },
+    { id: 3, name: "Индивидуальные туры в Узбекистан", value: "indv" },
+    { id: 4, name: "Комбинированные туры в Узбекистан", value: "comb" },
+  ],
+  itemValueKr: "Все туры",
+  valueTurk: [
+    { id: 1, name: "Все туры", value: "all" },
+    { id: 2, name: "Комбинированные туры в Узбекистан", value: "comb" },
+  ],
+  itemValueTurk: "Все туры",
 };
 
 export const filterSlice = createSlice({
@@ -31,9 +50,24 @@ export const filterSlice = createSlice({
     },
     getItemValueK: (state, action) => {
       state.itemValueK = action.payload;
-    }
+    },
+    getItemValueT: (state, action) => {
+      state.itemValueT = action.payload;
+    },
+    getItemValueKr: (state, action) => {
+      state.itemValueKr = action.payload;
+    },
+    getItemValueTurk: (state, action) => {
+      state.itemValueTurk = action.payload;
+    },
   },
 });
 
-export const { getItemValue,getItemValueK } = filterSlice.actions;
+export const {
+  getItemValue,
+  getItemValueK,
+  getItemValueT,
+  getItemValueKr,
+  getItemValueTurk,
+} = filterSlice.actions;
 export default filterSlice.reducer;

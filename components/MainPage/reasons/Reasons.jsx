@@ -3,7 +3,7 @@ import Image from "next/image";
 import img1 from "../../../public/tour-guide.png";
 import img2 from "../../../public/family-trip.png";
 import img3 from "../../../public/customer-review.png";
-import Container from "@/components/UI/Container/Container";
+import Container from "@/components/UI/container/Container";
 
 const Reasons = () => {
   return (

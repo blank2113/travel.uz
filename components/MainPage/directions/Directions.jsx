@@ -1,4 +1,4 @@
-import Container from "@/components/UI/Container/Container";
+import Container from "@/components/UI/container/Container";
 import { useGetDestinationsQuery } from "../../../store/middleWares/destinationsApi";
 import CountryCard from "@/components/UI/countryCard/CountryCard";
 import classes from "./directions.module.css";

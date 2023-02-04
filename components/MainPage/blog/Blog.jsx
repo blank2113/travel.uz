@@ -1,4 +1,4 @@
-import Container from "@/components/UI/Container/Container";
+import Container from "@/components/UI/container/Container";
 import classes from "./blog.module.css";
 import { useGetArticlesQuery } from "@/store/middleWares/articlesApi";
 import Image from "next/image";

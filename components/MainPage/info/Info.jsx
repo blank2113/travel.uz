@@ -1,4 +1,4 @@
-import Container from "@/components/UI/Container/Container";
+import Container from "@/components/UI/container/Container";
 import classes from "./info.module.css";
 import Block1 from "./block1/Block1";
 import Block2 from "./block2/Block2";

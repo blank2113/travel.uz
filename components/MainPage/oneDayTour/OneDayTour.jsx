@@ -1,7 +1,7 @@
 import classes from "./oneDayTour.module.css";
 import { useGetOneDayTourValuesQuery } from "../../../store/middlewares/oneDayTourApi";
 import Card from "../../UI/card/Card";
-import Container from "../../UI/Container/Container";
+import Container from "../../UI/container/Container";
 
 const OneDayTour = ({ title }) => {
   const { data = [] } = useGetOneDayTourValuesQuery();

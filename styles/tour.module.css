@@ -1,0 +1,16 @@
+.inner{
+    padding-top: 103px;
+}
+.back{
+    padding: 20px 50px;
+}
+.content{
+    padding: 20px 50px;
+    display: flex;
+}
+.content_tours{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 0 20px;
+}

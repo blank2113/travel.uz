@@ -1,6 +1,6 @@
 import classes from "./creationTour.module.css";
 import Link from "next/link";
-import Container from "@/components/UI/Container/Container";
+import Container from "@/components/UI/container/Container";
 
 const CreationTour = () => {
   return (

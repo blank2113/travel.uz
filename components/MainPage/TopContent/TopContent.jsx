@@ -1,4 +1,4 @@
-import Container from "@/components/UI/Container/Container";
+import Container from "@/components/UI/container/Container";
 import classes from "./topContent.module.css";
 import Search from "../../UI/Search/Search";
 

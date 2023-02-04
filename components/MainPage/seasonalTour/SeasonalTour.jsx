@@ -1,7 +1,7 @@
 import classes from "./seasonalTour.module.css";
 import {useGetSeasonalTourValuesQuery} from '../../../store/middlewares/seasonalTourApi'
 import Card from "../../UI/card/Card";
-import Container from "@/components/UI/Container/Container";
+import Container from "@/components/UI/container/Container";
 
 const SeasonalTour = ({title}) => {
     const {data} = useGetSeasonalTourValuesQuery()

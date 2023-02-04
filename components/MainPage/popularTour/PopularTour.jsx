@@ -1,7 +1,7 @@
 import classes from "./popularTour.module.css";
 import {useGetPopularTourValuesQuery} from '../../../store/middlewares/popularTourApi'
 import Card from "../../UI/card/Card";
-import Container from "../../UI/Container/Container";
+import Container from "../../UI/container/Container";
 
 const PopularTour = ({title}) => {
     const {data} = useGetPopularTourValuesQuery()

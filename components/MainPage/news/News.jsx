@@ -1,4 +1,4 @@
-import Container from "@/components/UI/Container/Container";
+import Container from "@/components/UI/container/Container";
 import classes from "./news.module.css";
 import { useGetNewsQuery } from "@/store/middleWares/newsApi";
 import Image from "next/image";

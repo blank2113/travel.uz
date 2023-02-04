@@ -1,0 +1,197 @@
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  /* margin: 20px 30px; */
+  border-radius: 24px;
+  background-color: transparent;
+  padding: 0;
+
+  transition: all .08s ease-in-out;
+}
+.inner.active {
+  background-color: #8d8d8d84;
+  padding: 20px 40px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #8d8d8d84;
+  padding: 20px;
+  border-radius: 24px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.header.active{
+    background-color: transparent;
+    padding: 0px;
+}
+.icon{
+    margin-left: 50px;
+    cursor: pointer;
+}
+.wrap {
+  transform: scaleY(0);
+  /* opacity: 0; */
+  height: 0;
+  width: 0;
+}
+.wrap.active {
+    /* opacity: 1; */
+  transform: scaleY(1);
+  height: 100%;
+  width: 100%;
+}
+.title {
+  font-size: 18px;
+  text-align: left;
+}
+.price {
+  /* border: 1px solid #000; */
+  border-radius: 14px;
+  background: transparent;
+}
+.days {
+  /* border: 1px solid #000; */
+  border-radius: 14px;
+  background: transparent;
+  margin: 20px 0;
+}
+.price input {
+  width: 100%;
+}
+.price .point {
+  border-radius: 5px;
+  background: #e3e3e3;
+  /* box-shadow: inset 6px 6px 12px #5b5b5b, inset -6px -6px 12px #ffffff; */
+  padding: 5px;
+  font-size: 18px;
+  width: 50%;
+  text-align: center;
+}
+/*********** Baseline, reset styles ***********/
+.range[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* Removes default focus */
+.range[type="range"]:focus {
+  outline: none;
+}
+
+/******** Chrome, Safari, Opera and Edge Chromium styles ********/
+/* slider track */
+.range[type="range"]::-webkit-slider-runnable-track {
+  background-color: #999999;
+  border-radius: 0.5rem;
+  height: 0.5rem;
+}
+
+/* slider thumb */
+.range[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  margin-top: -8.5px; /* Centers thumb on the track */
+  background-color: #37ff00;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+
+.range[type="range"]:focus::-webkit-slider-thumb {
+  outline: 3px solid #37ff00;
+  outline-offset: 0.125rem;
+}
+
+/*********** Firefox styles ***********/
+/* slider track */
+.range[type="range"]::-moz-range-track {
+  background-color: #999999;
+  border-radius: 0.5rem;
+  height: 0.5rem;
+}
+
+/* slider thumb */
+.range[type="range"]::-moz-range-thumb {
+  background-color: #37ff00;
+  border: none; /*Removes extra border that FF applies*/
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+
+.range[type="range"]:focus::-moz-range-thumb {
+  outline: 3px solid #37ff00;
+  outline-offset: 0.125rem;
+}
+.days input {
+  width: 100%;
+}
+.days .point {
+  border-radius: 5px;
+  background: #e3e3e3;
+  /* box-shadow: inset 6px 6px 12px #5b5b5b, inset -6px -6px 12px #ffffff; */
+  padding: 5px;
+  font-size: 18px;
+  width: 70%;
+  text-align: center;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.reflect {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.countries {
+  margin: 20px 0px;
+  width: 100%;
+  font-size: 20px;
+  background-color: #fff;
+  color: #000;
+  font-size: 22px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.countries:focus{
+    outline: none;
+}
+.countries .country_item {
+  font-size: 22px;
+  padding: 5px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.types_wrapper {
+  margin: 20px 0px;
+  width: 100%;
+  font-size: 20px;
+  margin: 20px 0;
+  background-color: #fff;
+  color: #000;
+  font-size: 22px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.types_wrapper:focus{
+    outline: none;
+}
+.type_item {
+  padding: 5px;
+  border-radius: 12px;
+  cursor: pointer;
+}

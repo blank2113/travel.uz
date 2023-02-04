@@ -8,6 +8,9 @@ import Image from "next/image";
 import BackWardBtn from "@/components/UI/backWardBtn/BackWardBtn";
 import Uzbekistan from "@/components/aboutPage/uzb/Uzbekistan";
 import Kazakhstan from "@/components/aboutPage/kz/Kazakhstan";
+import Tajikistan from "@/components/aboutPage/taj/Tajikistan";
+import Kyrgyzstan from "@/components/aboutPage/krg/Kyrgyzstan";
+import Turkmenistan from "@/components/aboutPage/turk/Turkmenistan";
 
 export default function () {
   const { query } = useRouter();
@@ -19,30 +22,17 @@ export default function () {
       </Head>
       <Wrapper>
         <div className={classes.inner}>
-          <div className={classes.top}>
-            {data
-              .filter((item) => item.url === query.url)
-              .map((item) => (
-                <div key={item.id} className={classes.wrapper}>
-                  <h1>{item.name}</h1>
-                  <Image
-                    src={`https://turi-uzbekistana.ru/${item.photo}`}
-                    alt="image"
-                    width="0"
-                    height="0"
-                    sizes="100vw"
-                    style={{ width: "100%", height: "auto" }}
-                    className={classes.img}
-                  />
-                </div>
-              ))}
-          </div>
-          <Container>
-            <div className={classes.content}>
-                <BackWardBtn title={"страны"}/>
-            </div>
-            {query.url === 'uzbekistan' ? <Uzbekistan/> : query.url === 'kazakhstan' ? <Kazakhstan/> : null}
-          </Container>
+          {query.url === "uzbekistan" ? (
+            <Uzbekistan />
+          ) : query.url === "kazakhstan" ? (
+            <Kazakhstan />
+          ) : query.url === "tajikistan" ? (
+            <Tajikistan />
+          ) : query.url === "kyrgyzstan" ? (
+            <Kyrgyzstan />
+          ) : (
+            <Turkmenistan />
+          )}
         </div>
       </Wrapper>
     </>
