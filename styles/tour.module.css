@@ -7,10 +7,14 @@
 .content{
     padding: 20px 50px;
     display: flex;
+    flex-direction: column;
 }
 .content_tours{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     margin: 0 20px;
+}
+.content_tours:nth-child(even){
+    margin: 20px;
 }

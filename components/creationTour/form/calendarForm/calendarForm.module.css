@@ -1,0 +1,33 @@
+.calendar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+    border: 1px solid #000;
+    font-size: 25px;
+    padding: 2px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+.sub_title{
+    margin: 20px 0;
+    font-size: 25px;
+    font-weight: 500;
+  }
+.input{
+    width: 100%;
+    border: none;
+    background-color: #fff;
+}
+.input:focus{
+    outline: none;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.text{
+    margin-left: 10px;
+}

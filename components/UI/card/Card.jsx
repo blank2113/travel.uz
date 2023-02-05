@@ -48,7 +48,7 @@ const Card = ({ item }) => {
           </p>
           <p className={classes.type}>
             <FontAwesomeIcon icon={faCompass} className={classes.icon} />
-            {item.country}
+            {item.tourType}
           </p>
         </div>
         <div className={classes.content}>

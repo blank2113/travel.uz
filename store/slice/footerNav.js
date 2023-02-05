@@ -3,9 +3,9 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState ={
     value:[{id:1,link:"/about",name:"О нас"},
     {id:2,link:"/contacts",name:"Наши контакты"},
-    {id:3,link:"/comments",name:"Отзывы туристов"},
-    {id:4,link:"/tours",name:"Туры по странам"},
-    {id:5,link:"/type",name:"Туры по типу"},]
+    {id:3,link:"/review",name:"Отзывы туристов"},
+    {id:4,link:"/country",name:"Туры по странам"},
+    {id:5,link:"/tour",name:"Туры по типу"},]
 }
 
 export const footerNavSlice = createSlice({

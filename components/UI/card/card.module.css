@@ -4,6 +4,7 @@
   border-radius: 26px;
   background: #ffffff;
   box-shadow: 6px 6px 12px #d4d4d4, -6px -6px 12px #ffffff;
+  margin: 20px;
 }
 .top {
   position: relative;

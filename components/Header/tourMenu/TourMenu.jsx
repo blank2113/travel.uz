@@ -22,6 +22,7 @@ const TourMenu = () => {
         <div className={classes.inner}>
           <div className={classes.list}>
             {data.slice(0,10).map((country) => (
+              <Link href={`/tour/${country.url}`}>
               <div className={classes.card} key={country.id}>
                 <Image
                   src={`https://turi-uzbekistana.ru/${country.photo}`}
@@ -33,6 +34,8 @@ const TourMenu = () => {
                 />
                 <p>{country.name}</p>
               </div>
+              </Link>
+             
             ))}
           </div>
           <Link href={"/tour"}>

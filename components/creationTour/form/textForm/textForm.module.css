@@ -1,0 +1,17 @@
+.textarea{
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #fff;
+}
+.textarea:focus{
+  outline: none;
+  border: 1px solid #A3E635;
+}
+.sub_title{
+  margin: 20px 0;
+  font-size: 25px;
+  font-weight: 500;
+}

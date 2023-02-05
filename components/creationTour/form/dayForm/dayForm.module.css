@@ -1,0 +1,36 @@
+.wrapper{
+  width: 50%;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  font-size: 25px;
+  display: flex;
+}
+.increment{
+  font-size: 25px;
+  border: 1px solid #dee2e6;
+  background-color: #dee2e6;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  font-size: 25px;
+  width: 50%;
+}
+.digit{
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+}
+.decrement{
+  font-size: 25px;
+  border: 1px solid #dee2e6;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  font-size: 25px;
+  background-color: #dee2e6;
+  width: 50%;
+}
+.sub_title{
+  margin: 20px 0;
+  font-size: 25px;
+  font-weight: 500;
+}
+

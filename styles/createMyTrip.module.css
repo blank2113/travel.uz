@@ -1,0 +1,23 @@
+.inner {
+  background: linear-gradient(rgb(0 0 0 / 70%), rgb(0 0 0 / 30%)),
+    url("../public/bgc.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.top{
+    padding-top: 104px;
+    color: #fff;
+    text-align: center;
+}
+.top h1{
+    margin: 40px 0 0 0;
+    font-weight: 400;
+    font-size: 40px;
+}
+.top p{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
