@@ -24,6 +24,7 @@ import getFormValueReducer from "./slice/getFormValue";
 import inputReducer from "./slice/input";
 import cardIdReducer from "./slice/cardId";
 import filterSliceReducer from "./slice/filterSlice";
+import authReducer from "./slice/auth";
 
 export const store = configureStore({
     reducer:{
@@ -52,6 +53,7 @@ export const store = configureStore({
         input: inputReducer,
         cardId: cardIdReducer,
         filterSlice: filterSliceReducer,
+        auth: authReducer,
     },
     middleware: (getDefaultMiddleWare) => 
     getDefaultMiddleWare().concat([

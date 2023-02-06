@@ -13,9 +13,9 @@
     display: flex;
   }
   .static {
-    flex: 2;
+    /* flex: 2; */
     position: relative;
-    width: 100%;
+    /* width: 100%; */
   }
   .wrapper::after {
     content: "";
@@ -62,9 +62,9 @@
     margin: 0 auto 0 0;
   }
   .content {
-    flex: 5;
+    /* flex: 5; */
     position: relative;
-    width: 100%;
+    /* width: 100%; */
   
     margin-left: 20px;
   }
@@ -138,4 +138,9 @@
     cursor: pointer;
     margin-bottom: 40px;
     color: #000;
+  }
+  @media (max-width: 1024px){
+    .wrapper {
+     display: none;
+    }
   }

@@ -5,3 +5,6 @@
 .inner{
     min-height: 100vh;
 }
+.inner.active{
+    overflow: hidden;
+}

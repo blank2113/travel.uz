@@ -12,12 +12,14 @@ const OneDayTour = ({ title }) => {
         <section className={classes.OneDayTour}>
           <Container>
             <h2>{title}</h2>
-            <div className={classes.inner}>
-              {data.map((item) => (
-                <Card item={item} key={item.id} />
-              ))}
-            </div>
           </Container>
+          <div className={classes.inner}>
+            {data.map((item) => (
+              <div className={classes.wrapper}>
+                <Card item={item} key={item.id} />
+              </div>
+            ))}
+          </div>
         </section>
       ) : null}
     </>

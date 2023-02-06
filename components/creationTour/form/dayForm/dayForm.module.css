@@ -18,6 +18,9 @@
   width: 100%;
   font-size: 25px;
   text-align: center;
+  display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .decrement{
   font-size: 25px;
@@ -34,3 +37,21 @@
   font-weight: 500;
 }
 
+@media (max-width: 1200px) {
+  .sub_title{
+    font-size: 20px;
+  }
+  .wrapper{
+    font-size: 20px;
+  }
+  .increment{
+    font-size: 20px;
+  }
+  .digit{
+    font-size: 20px;
+  }
+  .decrement{
+    font-size: 20px;
+
+  }
+}

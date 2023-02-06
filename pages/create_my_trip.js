@@ -26,8 +26,10 @@ const create_my_trip = () => {
             </Container>
           </div>
           <div className={classes.main}>
-            <Form/>
-            <Content/>
+            <Container>
+              <Form />
+            </Container>
+            <Content />
           </div>
         </div>
       </Wrapper>

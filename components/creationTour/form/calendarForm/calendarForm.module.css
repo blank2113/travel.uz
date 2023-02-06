@@ -31,3 +31,24 @@
 .text{
     margin-left: 10px;
 }
+@media (max-width: 1200px) {
+    .sub_title{
+      font-size: 20px;
+    }
+    .wrapper{
+      font-size: 20px;
+    }
+    .increment{
+      font-size: 20px;
+    }
+    .digit{
+      font-size: 20px;
+    }
+    .decrement{
+      font-size: 20px;
+  
+    }
+    .calendar{
+        font-size: 20px;
+    }
+  }

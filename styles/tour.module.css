@@ -1,20 +1,34 @@
-.inner{
-    padding-top: 103px;
+.inner {
+  padding-top: 103px;
 }
-.back{
-    padding: 20px 50px;
+.back {
+  padding: 20px 50px;
 }
-.content{
-    padding: 20px 50px;
-    display: flex;
-    flex-direction: column;
+.content {
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
 }
-.content_tours{
+.content_tours {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  width: 100%;
+}
+.content_tours:nth-child(even) .wrapper {
+  margin: 10px;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  .content_tours {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
-    margin: 0 20px;
-}
-.content_tours:nth-child(even){
-    margin: 20px;
+  }
 }

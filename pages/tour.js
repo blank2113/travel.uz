@@ -27,7 +27,7 @@ const tour = () => {
             <FilterBlock />
             <div className={classes.content_tours}>
               {data.map((item) => (
-                <Link href={`/tour/${item.url}`}>
+                <Link href={`/tour/${item.url}`} className={classes.wrapper}>
                   <Card key={item.id} item={item} />
                 </Link>
               ))}

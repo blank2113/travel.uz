@@ -17,10 +17,12 @@ const Uzbekistan = () => {
   return (
     <div className={classes.Uzb}>
       <div className={classes.top}>
-        <h1>
-          Узбекистан - история, традиции, туры, фотографии,
-          достопримечательности
-        </h1>
+        <Container>
+          <h1>
+            Узбекистан - история, традиции, туры, фотографии,
+            достопримечательности
+          </h1>
+        </Container>
       </div>
       <Container>
         <BackWardBtnIn prevTitle={"country"} title={"Узбекистан"} />

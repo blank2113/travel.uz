@@ -2,7 +2,6 @@ import { createSlice } from "@reduxjs/toolkit";
 
 
 const initialState ={
-    auth:["Авторизация","Регистрация"],
     currency: ["сум", "руб","дол"]
 }
 
